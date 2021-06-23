@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang= "pt-BR">
+    <head>
+        <title>Calculadora Simples</title>
+        <meta charset="utf-8">
+        <link rel= "StyleSheet" href= "Style.css">
+        
+    </head>
+
+    <body>
+        
+        <div id = "num_div" >
+            <legend><strong>Calculadora Simples</strong></legend>
+            <form name = input_form>
+                <input  type = "number" id= "n1_txt" class="entrada">
+                <select id = "op_sel">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">X</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+
+
+                </select>
+                <input  type = "number" id= "n2_txt" class="entrada"><br>
+                <div id= "res_div">
+                    
+                </div>
+                <input  type = "button" id= "somar_btn" value="Calcular">
+              
+            </form>
+        </div>
+        <script src="Calc.js"></script>
+    </body>
+</html>
