@@ -1,0 +1,54 @@
+body{
+    background-image: url("texturaAzul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 15pt arial;
+}
+#num_div{
+    margin: auto;
+    margin-top: 20px;
+    background-size: auto;
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.466);
+    border-radius:  10px;
+
+
+}
+
+input{
+    border-radius:  10px;
+    border-color: transparent; /*Sempre tente lembrar desta e*/
+    outline: transparent;      /*Desta*/
+    width: auto;
+
+}
+.entrada{
+    border-radius:  10px;
+    border-color: transparent; /*Sempre tente lembrar desta e*/
+    outline: transparent;      /*Desta*/
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 10px; 
+    margin-left: 10px;   
+    margin-bottom: 10px;
+}
+
+
+#res_div{
+    margin-bottom: 10px;
+    color: rgb(57, 51, 145);
+}
+
+legend{
+    color: rgb(101, 212, 240);
+    font-style:  italic;
+}
+
+select{
+    border-radius:  10px;
+    border-color: transparent; /*Sempre tente lembrar desta e*/
+    outline: transparent;      /*Desta*/
+}
